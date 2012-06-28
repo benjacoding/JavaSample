@@ -4,3 +4,50 @@
 *.jar
 *.war
 *.ear
+
+class BankAlert{
+    public static void main(String[] arguments) {
+         System.out.println("BenjaBank Automated Acount Alert System");
+         System.out.println();
+        
+        int someAmount = 1000000001;
+          System.out.println("Your current balance is" + " $"+ someAmount + " without interest" + ".");
+          System.out.println("Current Account Status:");
+           System.out.println();
+          if (someAmount <= 500){
+              System.out.println("                       " + "Your account is low on money!");
+          }
+          else if (someAmount > 500){
+              System.out.println ("                       " + "Your account is good on money!");
+          }
+          if (someAmount >= 1000000000){
+              System.out.println("                       " + "You're a millionaire!");
+          }
+               System.out.println();
+               System.out.println("Thanks for your business! :-)");
+                
+           
+         
+         if(someAmount > 2000){
+            System.out.println();
+            System.out.println("Bank Alert!");
+            System.out.println();
+            System.out.println("You qualify for an additiob because of your high savings!");
+            System.out.println("Your new total with your additiovbnbvbbvbnbnbv:-0909090909;-):-) ;-) is" +" $" + someAmount + 10 +"!");
+        }
+      
+    if(someAmount < 100) {
+        System.out.println();
+            System.out.println("Bank Alert!");
+            System.out.println();
+            System.out.println("Your account is below minimum balance! Your account will");
+                     System.out.println("be closed in 30 days if you are not above the minimum balace.");
+                              System.out.println();
+                             System.out.println("That means that" + " $" + someAmount + " will be lost!");
+    }
+        
+    
+}
+}
+
+
